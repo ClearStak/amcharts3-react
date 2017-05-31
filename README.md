@@ -1,14 +1,14 @@
+This is a fork of [amcharts3-react](https://github.com/amcharts/amcharts3-react) for use within ClearStak.  The only change is that the chart zooms all the way out when the data updates.
+
 How to install
 ==============
 
-1. Create a `package.json` which includes `react`, `react-dom`, and `@amcharts/amcharts3-react`:
+1. Create a `package.json` which includes a reference to this repo:
 
    ```json
    {
-     "devDependencies": {
-       "react": "^15.4.2",
-       "react-dom": "^15.4.2",
-       "@amcharts/amcharts3-react": "^2.0.0"
+     "dependencies": {
+       "@amcharts/amcharts3-react": "https://github.com/ClearStak/amcharts3-react/tarball/2.x.x",
      }
    }
    ```
